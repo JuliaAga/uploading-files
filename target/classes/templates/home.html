@@ -1,0 +1,39 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head><title th:text="${fileName}">File</title>
+    <style type="text/css">
+   .header {
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #2b4c8c;
+   }
+  </style>
+</head>
+<body>
+<h1>Table of content</h1>
+<ul th:each="string : ${tableOfContent}">
+       <li>
+           <a th:href="${fileName}+'#'+${#strings.substringBefore(string,'#')}"
+              th:text="${#strings.substringAfter(string,'#')}"
+           class="header"> test </a>
+       </li>
+</ul>
+<h1>Content</h1>
+<div>
+<ul>
+
+    <li th:each="string : ${fileStrings}">
+        <span th:if="${#lists.contains(tableOfContent, string)}">
+           <a th:name="${#strings.substringBefore(string,'#')}"></a>
+        </span>
+        <span th:text="${#lists.contains(tableOfContent, string)} ? ${#strings.substringAfter(string,'#')} : ${string}"
+              th:class="${#lists.contains(tableOfContent, string)} ? 'header'"></span>
+    </li>
+</ul>
+</div>
+
+<div th:each="string : ${tableOfContent}">
+    <span th:text="${string}"> test </span>
+</div>
+
+</body>
+</html>

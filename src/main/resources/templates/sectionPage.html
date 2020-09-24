@@ -1,0 +1,18 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head><title th:text="${fileName}">File</title>
+
+</head>
+<body>
+<h1 th:text="${lineIdText}"> Header </h1>
+
+<ul th:each="line : ${sectionLines}">
+<li th:switch="${line.isSection()}">
+    <span th:case="false" th:text="${line.getLine()}">line </span>
+    <span th:case="true">  <a th:href = "'/'+${filename}+@{/section/{id}(id=${line.getId()})}"
+                              th:text="${line.getLine()}"/>
+    </span>
+</li>
+</ul>
+
+</body>
+</html>

@@ -22,7 +22,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5943b797-218c-41ee-bee0-e535d094339c" name="Default Changelist" comment="" />
+    <list default="true" id="5943b797-218c-41ee-bee0-e535d094339c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/models/FileLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/models/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sectionPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/controllers/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/storage/SimpleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uploadingfiles/testingMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mainFilePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/uploadingfiles/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/uploadingfiles/storage/SimpleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/uploadingfiles/testingMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +51,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,6 +76,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.unlinked.gradle.project.popup" value="false" />
@@ -71,7 +92,7 @@
       <module name="uploading-files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.uploadingfiles.*" />
+          <option name="PATTERN" value="com.example.uploadingfiles.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +105,7 @@
       <module name="uploading-files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.uploadingfiles.*" />
+          <option name="PATTERN" value="com.example.uploadingfiles.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,29 +147,63 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1600918782387">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600918782387" />
     <state x="779" y="270" width="424" height="574" key="FileChooserDialogImpl" timestamp="1599918658970">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="779" y="270" width="424" height="574" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599918658970" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1599906344591">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1600920030151">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599906344591" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1599906344590">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600920030151" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1600920030151">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599906344590" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1599906344590">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600920030151" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1600920030151">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599906344590" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1599906344591">
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600920030151" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1600920030151">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599906344591" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599920394996">
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600920030151" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1600876328767">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1599920394996" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600876328767" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1600876328767">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600876328767" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1600876328767">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600876328767" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1600876328767">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600876328767" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1600836603326">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600836603326" />
+    <state x="517" y="272" width="947" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600876099031">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="517" y="272" width="947" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/72.27.1848.1053/1920.0.1024.768@72.27.1848.1053" timestamp="1600876099031" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
